@@ -1,0 +1,28 @@
+.errorInp{
+    border: 2px solid red;
+}
+
+.error, .passerror{
+    color: red;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem
+}
+.country{
+    box-shadow: 0 0 5px #ccc;
+
+    height: 25rem
+}
+
+
+.flag{
+    height: 50% ;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
