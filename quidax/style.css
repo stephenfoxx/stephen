@@ -1,0 +1,260 @@
+/* /* .box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* display: none;  */
+
+    /* *{
+        padding: 0;
+        margin: 0;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    a{
+        text-decoration: none;
+        
+    }
+
+    
+
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .fa-bars{
+        display: none;
+    }
+
+     @media screen and (max-width: 700px) {
+        .fa-bars{
+            display: block;
+        }
+
+        
+        } */ 
+        *{
+    padding: 0;
+    margin: 0;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+a,i{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+nav, nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    padding: 0 2rem;
+    box-shadow: 0 0 5px #ccc ;
+    height: 5rem;
+    position: relative;
+    
+}
+nav ul{
+    width: 30%; 
+}
+
+.fa-bars{
+  display: none;
+}
+
+.container{
+    display: flex;
+    margin-left: 6em;
+    margin-top: 5rem;
+    gap: 15rem;
+    
+    
+}
+@media screen and (max-width: 800px) {
+    .fa-bars{
+  display: block ;
+}
+
+.container{
+    flex-direction: column;
+}
+.img{
+    
+}
+
+nav ul{
+    flex-direction: column;
+    position: absolute;
+    top:  5rem;
+background-color: #ccc;
+width: 100%;
+left: 0;
+height: 7rem;
+padding:  2rem 0 ;
+display: none;
+}
+.show{
+    display: flex;
+}
+}
+
+.img{
+    width: 10rem;
+}
+
+.navsection{
+    width: 20rem;
+}
+
+.navsection li{
+    font-size: 1.2rem;
+    width: 5rem;
+    color: purple;
+}
+
+.b1{
+    color: white;
+    background-color: navy;
+    border-radius: 0.5rem;
+    width: 11rem;
+    height: 3.5rem;
+    border-color: navy;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+.box1{
+     width: 30rem;
+    height: 40rem;
+    border-color: black;
+    gap: 20rem;
+    background-color:white;
+}
+.box2{
+     width: 30rem;
+    height: 40rem;
+    border-color: black;
+    background-color: white;
+    gap: 10rem;
+}
+
+.img2{
+    width: 30rem;
+}
+
+.p1{
+    color:navy;
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-weight: bolder;
+    
+}
+
+.p2{
+color: navy;
+margin-top: 3rem;
+}
+
+.b2{
+    background-color: navy;
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    border-color: navy;
+    font-weight: bolder;
+    
+}
+@media only screen and (max-width: 1021px) {
+    nav{
+
+    }
+}
+
+a:hover{
+    color: plum;
+}
+
+.b1:hover{
+    /* color: plum; */
+    background-color: greenyellow;
+    border-color: none;
+}
+
+.con{
+    height: 10rem;
+    width: 10rem;
+    /* gap: 0.5rem; */
+    display: flex;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.img3{
+    width: 15rem;
+    height: 7rem;
+}
+.img4{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.p{
+    margin-top: 3rem;
+    color: navy;
+    font-weight: bolder;
+}
+.b2:hover{
+/* color: plum; */
+background-color:greenyellow;
+}
+
+.drop-down{
+    position: absolute;
+    flex-direction: column;
+    background-color: aquamarine;
+    width: 8rem;
+    left: 27rem;
+    top: 5rem;
+    transition: all;
+    display: none;
+
+}
+
+.products{
+    /* position: relative; */
+}
+
+.products:hover .drop-down{
+    display: flex;
+    transition: all 1s ease-in-out;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-slide{
+    margin-left: 5rem;
+    object-fit: cover;
+}
