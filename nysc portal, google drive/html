@@ -1,0 +1,47 @@
+/*
+        
+        selector{
+            property:value;
+        }
+
+        ** types of selectors**
+
+        General selector => *
+        element selector => element names
+        class selector => class name;
+id selector => id names
+
+        group selector => selector1, selector2, ....
+
+        descendant selector => selector1 selector2 ....
+        */
+
+      * {
+        text-decoration: underline;
+        background-color: rgb(9, 103, 180);
+      }
+      li {
+        color: wheat;
+        font-family: sans-serif;
+        font-size: 30px;
+      }
+      a {
+        color: yellow;
+      }
+
+      .ab {
+        text-decoration: none;
+        color: orange;
+      }
+      #link2 {
+        font-size: 30px;
+      }
+
+      span,
+      .home {
+        color: red;
+      }
+
+      ul li a{
+        font-weight: 900;
+      }
